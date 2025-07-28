@@ -17,7 +17,7 @@ function toggleSidebar() {
 <template>
     <div :class="[
         ' min-h-screen h-full  bg-white text-blue-700 font-bold text-xl flex flex-col items-center gap-7 pt-16 py-4 space-y-6 fixed top-0 left-0 transition-all duration-300 shadow-2xl shadow-black/60 z-50',
-        props.modelValue ? 'w-68  px-4' : 'w-28 '
+        props.modelValue ? 'w-68  px-4' : 'w-18 md:w-24'
     ]">
         <div @click="toggleSidebar"
             class="transform hover:scale-110 transition-transform duration-300 cursor-pointer font-bold">

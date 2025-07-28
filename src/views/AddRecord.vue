@@ -42,7 +42,7 @@ function handleFiles(event) {
 
 
 <template>
-    <div class="ml-32 pt-18 px-4 md:px-22">
+    <div class="ml-18 pt-18 px-4 md:px-22">
         <h1 class="flex items-center justify-between gap-10 text-4xl text-blue-700 font-bold">
             <div class="flex items-center gap-10">
                 <Icons :icon="'fa-plus'" class=" text-5xl font-bold text-emerald-500" />
@@ -72,20 +72,20 @@ function handleFiles(event) {
             <h1 class="text-3xl font-bold">Create New Record</h1>
 
             <div class="flex justify-center items-center lg:justify-start gap-12 flex-wrap max-w-[90rem] w-full ">
-                <div class="flex flex-col gap-3 min-w-[350px] max-w-[28rem] grow">
+                <div class="flex flex-col gap-3 min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow">
                     <span class=" text-gray-400/70 font-bold text-xl">Date received*</span>
                     <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
                         text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400" type="date" />
                 </div>
 
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">Time received*</span>
                     <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
                         text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400" type="time" />
                 </div>
             </div>
             <div class="flex justify-center items-center lg:justify-start gap-12 flex-wrap max-w-[90rem] w-full">
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">Customer titile*</span>
                     <div class="relative">
                         <select
@@ -101,26 +101,26 @@ function handleFiles(event) {
                     </div>
                 </div>
 
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">Customer name</span>
                     <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
                         text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400" type="text" />
                 </div>
 
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">First name*</span>
                     <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
                         text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400" type="text" />
                 </div>
             </div>
             <div class="flex justify-center items-center lg:justify-start gap-12 flex-wrap max-w-[90rem] w-full">
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">Date of birth</span>
                     <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
                         text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400" type="date" />
                 </div>
 
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">Sex</span>
                     <div class="relative">
                         <select
@@ -141,7 +141,7 @@ function handleFiles(event) {
             <h1 class="text-3xl font-bold">Judicial Case References</h1>
 
             <div class="flex justify-center items-center lg:justify-start gap-12 flex-wrap max-w-[90rem] w-full ">
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">Name OBJ</span>
                     <div class="relative">
                         <select
@@ -156,25 +156,25 @@ function handleFiles(event) {
                             class="text-3xl text-blue-600  font-extrabold absolute z-10 right-3 top-4" />
                     </div>
                 </div>
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">Service Police</span>
                     <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
                         text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400" type="text" />
                 </div>
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">OBJ Grade</span>
                     <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
                         text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400" type="text" />
                 </div>
             </div>
             <div class="flex justify-center items-center lg:justify-start gap-12 flex-wrap max-w-[90rem] w-full">
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">PV Number</span>
                     <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
                         text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400" type="text" />
                 </div>
 
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">Nationality</span>
                     <div class="relative">
                         <select
@@ -190,7 +190,7 @@ function handleFiles(event) {
                     </div>
                 </div>
 
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">TGI of</span>
                     <div class="relative">
                         <select
@@ -207,7 +207,7 @@ function handleFiles(event) {
                 </div>
             </div>
             <div class="flex justify-center items-center lg:justify-start gap-12 flex-wrap max-w-[90rem] w-full">
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">Magistrate Name</span>
                     <div class="relative">
                         <select
@@ -223,7 +223,7 @@ function handleFiles(event) {
                     </div>
                 </div>
 
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">Magistrate Grade</span>
                     <div class="relative">
                         <select
@@ -239,7 +239,7 @@ function handleFiles(event) {
                     </div>
                 </div>
 
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">Proseuctor's office number</span>
                     <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
                  text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400" type="text" />
@@ -247,12 +247,12 @@ function handleFiles(event) {
             </div>
 
             <div class="flex justify-center items-center lg:justify-start gap-12 flex-wrap max-w-[90rem] w-full">
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">Instruction number</span>
                     <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
                  text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400" type="text" />
                 </div>
-                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">Justice identifier</span>
                     <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
                          text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400" type="text" />
@@ -275,14 +275,14 @@ function handleFiles(event) {
                         <div class=" flex flex-col justify-center items-center w-full pb-12 gap-5">
                             <div
                                 class="flex justify-center items-center lg:justify-start gap-12 flex-wrap max-w-[60rem] w-full ">
-                                <div class="flex flex-col gap-3 min-w-[350px] max-w-[28rem] grow">
+                                <div class="flex flex-col gap-3 min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow">
                                     <span class=" text-gray-400/70 font-bold text-xl">Reception Date</span>
                                     <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
                                         text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400"
                                         type="date" />
                                 </div>
 
-                                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                                     <span class=" text-gray-400/70 font-bold text-xl">Seal State</span>
                                     <div class="relative">
                                         <select
@@ -348,14 +348,14 @@ function handleFiles(event) {
                         <div class=" flex flex-col justify-center items-center w-full pb-12 gap-5">
                             <div
                                 class="flex justify-center items-center lg:justify-start gap-12 flex-wrap max-w-[60rem] w-full ">
-                                <div class="flex flex-col gap-3 min-w-[350px] max-w-[28rem] grow">
+                                <div class="flex flex-col gap-3 min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow">
                                     <span class=" text-gray-400/70 font-bold text-xl">Sample Date</span>
                                     <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
                                         text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400"
                                         type="date" />
                                 </div>
 
-                                <div class="flex flex-col min-w-[350px] max-w-[28rem] grow gap-3">
+                                <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                                     <span class=" text-gray-400/70 font-bold text-xl">Sample Time</span>
                                     <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
                                     text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400"
@@ -365,7 +365,7 @@ function handleFiles(event) {
 
                             <div
                                 class="flex justify-center items-center lg:justify-start gap-12 flex-wrap max-w-[60rem] w-full ">
-                                <div class="flex flex-col gap-3 min-w-[350px]  grow">
+                                <div class="flex flex-col gap-3 min-w-[280px]  sm:min-w-[350px]   grow">
                                     <span class=" text-gray-400/70 font-bold text-xl">Sample Description</span>
                                     <textarea
                                         class="cursor-pointer bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
@@ -375,7 +375,7 @@ function handleFiles(event) {
                             </div>
                             <div
                                 class="flex justify-center items-center lg:justify-start gap-12 flex-wrap max-w-[60rem] w-full ">
-                                <div class="flex flex-col gap-3 min-w-[350px]  grow">
+                                <div class="flex flex-col gap-3 min-w-[280px]  sm:min-w-[350px]   grow">
                                     <span class=" text-gray-400/70 font-bold text-xl">Analysis*</span>
                                     <div class="relative">
                                         <select
