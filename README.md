@@ -1,7 +1,7 @@
 # Vue 3 + Vite
 
-Just Plain and Simple 
+Just Plain and Simple copy paste the command RUN and check :)
 
-``bash
+```bash
 npm run build
-# zedsoft
+
