@@ -64,7 +64,7 @@ function handleFiles(event) {
                 <div class="bg-gray-200 rounded-full" :class="[step > 2 ? 'px-4 py-1.5' : 'px-6 py-6']">
                     <span v-show="step > 2">3</span>
                 </div>
-                <div class=" absolute w-[240px] sm:w-[320px] h-1.5 bg-gray-200 -z-10"></div>
+                <div class=" absolute max-w-[310px] w-full h-1.5 bg-gray-200 -z-10"></div>
             </div>
         </div>
         <!-- First Step -->
