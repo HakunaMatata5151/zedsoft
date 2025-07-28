@@ -74,13 +74,13 @@ function handleFiles(event) {
             <div class="flex justify-center items-center lg:justify-start gap-12 flex-wrap max-w-[90rem] w-full ">
                 <div class="flex flex-col gap-3 min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow">
                     <span class=" text-gray-400/70 font-bold text-xl">Date received*</span>
-                    <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
+                    <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)] w-full
                         text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400" type="date" />
                 </div>
 
                 <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                     <span class=" text-gray-400/70 font-bold text-xl">Time received*</span>
-                    <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
+                    <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)] w-full
                         text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400" type="time" />
                 </div>
             </div>
@@ -350,14 +350,14 @@ function handleFiles(event) {
                                 class="flex justify-center items-center lg:justify-start gap-12 flex-wrap max-w-[60rem] w-full ">
                                 <div class="flex flex-col gap-3 min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow">
                                     <span class=" text-gray-400/70 font-bold text-xl">Sample Date</span>
-                                    <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
+                                    <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)] w-full
                                         text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400"
                                         type="date" />
                                 </div>
 
                                 <div class="flex flex-col min-w-[280px]  sm:min-w-[350px]  max-w-[28rem] grow gap-3">
                                     <span class=" text-gray-400/70 font-bold text-xl">Sample Time</span>
-                                    <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)]
+                                    <input class=" cursor-pointer  bg-white border border-gray-400/60 py-4.5 rounded-lg text-start px-3 shadow-[3px_3px_4px_rgba(0,0,0,.35)] w-full
                                     text-gray-400 placeholder-gray-400 placeholder-opacity-60 accent-gray-400"
                                         type="time" />
                                 </div>
